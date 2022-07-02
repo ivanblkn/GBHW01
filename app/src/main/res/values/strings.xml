@@ -1,3 +1,17 @@
 <resources>
-    <string name="app_name">GBHW01</string>
+    <string name="app_name">My first project</string>
+    <string name="str_from_res1">Demo string from resurce</string>
+    <string name="hint_set_text">Text for TextView</string>
+    <string name="btn1">Set text</string>
+    <string name="chB_Bold">Bold text</string>
+    <string name="chB_Italic">Italic text</string>
+    <string name="swIsOn">Switch is on</string>
+    <string name="swIsOff">Switch is off</string>
+    <string name="alignment">Alignment:</string>
+    <string name="al_l">Left</string>
+    <string name="al_c">Center</string>
+    <string name="al_r">Right</string>
+    <string name="enable">Enable</string>
+    <string name="disable">Disable</string>
+    <string name="size">Size:</string>
 </resources>
