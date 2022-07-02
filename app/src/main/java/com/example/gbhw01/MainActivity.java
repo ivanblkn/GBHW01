@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 mainTextField.setTypeface(null,
                         (chB_Italic.isChecked() ? Typeface.ITALIC : Typeface.NORMAL) +
-                                (chB_Bold.isChecked() ? Typeface.BOLD   : Typeface.NORMAL));
+                                (chB_Bold.isChecked() ? Typeface.BOLD : Typeface.NORMAL));
 
             }
         });
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 mainTextField.setTypeface(null,
                         (chB_Italic.isChecked() ? Typeface.ITALIC : Typeface.NORMAL) +
-                                (chB_Bold.isChecked() ? Typeface.BOLD   : Typeface.NORMAL));
+                                (chB_Bold.isChecked() ? Typeface.BOLD : Typeface.NORMAL));
             }
         });
 
@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity {
         sb.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
             public void onProgressChanged(SeekBar seekBar, int i, boolean b) {
-                mainTextField.setTextSize(14+i);
+                mainTextField.setTextSize(14 + i);
             }
 
             @Override
